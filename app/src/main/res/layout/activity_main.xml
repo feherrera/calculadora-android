@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical" >
+
+
+    <fragment
+        android:id="@+id/main_log"
+        android:name="com.herrera.felipe.calculadora.MainFragments.LogFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout="@layout/main_log" />
+
+    <fragment
+        android:id="@+id/main_numbers"
+        android:name="com.herrera.felipe.calculadora.MainFragments.NumbersFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout="@layout/main_numbers" />
+</LinearLayout>
